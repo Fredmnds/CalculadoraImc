@@ -1,0 +1,49 @@
+body {
+    color: white;
+    font-family: sans-serif;
+}
+
+#texto {
+    text-align: center;
+}
+
+.AreaCalc {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input {
+    height: 1.5em;
+}
+
+.area {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: rgb(139, 100, 139);
+    display: inline-flex;
+    padding: 1.5em;
+    flex-direction: column;
+    border-radius: 0.8em;
+    align-items: center;
+    width: 20em;
+}
+
+button {
+    height: 3em;
+    width: 100%;
+    background-color: rgb(65, 4, 65);
+    color: white;
+    font-weight: bold;
+    font-size: 0.99em;
+    border: none;
+    border-radius: 0.6em;
+}
+
+button:hover {
+    cursor: pointer;
+}
